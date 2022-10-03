@@ -17,7 +17,7 @@ class Counter { // 클래스 Counter 선언 시작
      * 단, Counter가 struct였다면 가시성 지시어 디폴트는 public.
      *  
     */
-    int value;
+    int value=0;
 
     public:
         //public 멤버 선언
