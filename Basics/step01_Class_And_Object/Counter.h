@@ -30,6 +30,7 @@ class Counter { // 클래스 Counter 선언 시작
         int getValue() const { //const : getValue()할 때 데이터멤버 값이 변하지 않음.
             return value;
         }
+        void f(); //원형만 준비
 };
 
 #endif //COUNTER_H_INCLUDED //ifndef랑 짝꿍
