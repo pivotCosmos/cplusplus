@@ -20,6 +20,11 @@ class Counter { // 클래스 Counter 선언 시작
     int value=0;
 
     public:
+        //생성자 선언
+        Counter() {
+            //객체 생성을 위한 준비 작업
+            value = 0;
+        }
         //public 멤버 선언
         void reset() {
             value = 0;
