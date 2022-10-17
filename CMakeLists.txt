@@ -8,4 +8,4 @@ include_directories(Basics/step01_Class_And_Object)
 add_executable(Study
         Basics/step01_Class_And_Object/CntMain.cpp
         Basics/step01_Class_And_Object/Counter.cpp
-        Basics/step01_Class_And_Object/Counter.h)
+        Basics/step01_Class_And_Object/Counter.h Basics/step01_Class_And_Object/Person.cpp Basics/step01_Class_And_Object/Person.h Basics/step01_Class_And_Object/Person.h)
