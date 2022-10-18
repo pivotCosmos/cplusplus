@@ -3,9 +3,9 @@ project(Study)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Basics/step01_Class_And_Object)
+include_directories(Basics/step02_Constructor)
 
 add_executable(Study
-        Basics/step01_Class_And_Object/CntMain.cpp
-        Basics/step01_Class_And_Object/Counter.cpp
-        Basics/step01_Class_And_Object/Counter.h Basics/step01_Class_And_Object/Person.cpp Basics/step01_Class_And_Object/Person.h Basics/step01_Class_And_Object/Person.h)
+        Basics/step02_Constructor/Person.cpp
+        Basics/step02_Constructor/Person.h
+        Basics/step02_Constructor/PrsnMain.cpp)
