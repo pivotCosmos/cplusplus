@@ -1,8 +1,11 @@
 #include <iostream>
+#include <windows.h>
 #include "Person.h"
 using namespace std;
+#pragma execution_character_set( "utf-8" )
 
 int main() {
+    SetConsoleOutputCP(65001);
     Person* p1 = new Person("naon", "koyangsi");
     Person* p2 = new Person("나옹", "고양시");
     p1->print();
