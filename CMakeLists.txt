@@ -3,9 +3,7 @@ project(Study)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Basics/step02_Constructor)
+include_directories(Homework)
 
 add_executable(Study
-        Basics/step02_Constructor/Person.cpp
-        Basics/step02_Constructor/Person.h
-        Basics/step02_Constructor/PrsnMain.cpp)
+        Homework/CppBeginner/CppBeginner.cpp)
